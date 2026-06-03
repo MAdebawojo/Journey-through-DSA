@@ -70,14 +70,16 @@ public class Stack {
     /**
      * Prints all the elements currently in the stack from top to bottom.
      */
-    void displayStack(){
+    void display(){
         if(this.isEmpty()){
             System.out.println("STACK EMPTY");;
             return;
         }
+
         for(int i = top; i > -1; i--){
-            System.out.println(this.stack[i]);
+            System.out.print(this.stack[i] + " ");
         }
+        System.out.println();
     }
 
     /**

@@ -23,7 +23,6 @@ The project is organized by data structure types and algorithmic paradigms:
 ## 📚 What I'm Learning
 1. **Time & Space Complexity:** Analyzing every data structure using Big O notation.
 2. **Proper API Documentation:** Writing clean, professional Javadoc strings for robust code readability.
-3. **Defensive Coding:** Moving away from primitive error reporting (`System.exit`) toward real-world exception routing.
 
 ---
 *Maintained by [M.Adebawojo]*

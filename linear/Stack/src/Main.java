@@ -22,7 +22,7 @@ public class Main {
         System.out.println("\n=== TESTING DISPLAY AND PEEK ===");
         System.out.println("Current top item (peek): " + myStack.peek()); // Expected: 30
         System.out.println("Full stack content (top to bottom):");
-        myStack.displayStack(); // Expected: 30, 20, 10
+        myStack.display(); // Expected: 30, 20, 10
 
         System.out.println("\n=== TESTING EXCEPTION: STACK OVERFLOW ===");
         try {

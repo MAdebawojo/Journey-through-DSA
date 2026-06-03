@@ -1,0 +1,52 @@
+# ==========================================
+# Compiled Java Classes (Bytecode)
+# ==========================================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# Crash Logs & Build Outputs
+# ==========================================
+hs_err_pid*
+replay_pid*
+/bin/
+/build/
+/out/
+/target/
+
+# ==========================================
+# IntelliJ IDEA Configuration
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==========================================
+# Eclipse Configuration
+# ==========================================
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# ==========================================
+# VS Code Configuration
+# ==========================================
+.vscode/
+
+# ==========================================
+# OS Generated Files (System Garbage)
+# ==========================================
+.DS_Store
+Thumbs.db
