@@ -17,7 +17,7 @@ The project is organized by data structure types and algorithmic paradigms:
 
 ## 🎯 Current Implementations
 - [x] **Stack** — Array-based fixed-capacity implementation with strict boundary error validation (`EmptyStackException` / `IllegalStateException`).
-- [ ] **Queue** — *Coming Soon*
+- [x] **Queue** — Array-based linear FIFO implementation utilizing `System.exit(1)` safety routing and synchronous index pointer tracking.
 - [ ] **Singly Linked List** — *Coming Soon*
 
 ## 📚 What I'm Learning
