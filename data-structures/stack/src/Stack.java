@@ -51,7 +51,7 @@ public class Stack {
             throw new IllegalStateException("Stack Overflow: Cannot push to a full stack.");
         }
         System.out.println("Inserting " + num);
-        stack[++top] = num;
+        stack[++top] = num; // compare with 'pop' method below (pre-increment is used ont he variable 'top' here)
     }
 
     /**
@@ -64,7 +64,7 @@ public class Stack {
         if(this.isEmpty()){
             throw new EmptyStackException();
         }
-        return stack[top--];
+        return stack[top--]; // notice the nuance between this method and push (post-increment is used here not pre-increment)
     }
 
     /**
