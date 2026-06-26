@@ -16,10 +16,12 @@ The repository is organized into two major categories:
 ```text
 .
 ├── data-structures/
-│   ├── stack/
-│   ├── queue/
+│   ├── graph/
+│   ├── heap/
 │   ├── linked-list/
-│   ├── tree/
+│   ├── queue/
+    ├── stack/
+    ├── tree/
 │   └── ...
 │
 ├── algorithms/
@@ -53,6 +55,9 @@ Contains implementations and analysis of:
 - [x] **Stack** — Array-based fixed-capacity implementation with strict boundary error validation (`EmptyStackException` / `IllegalStateException`).
 - [x] **Queue** — Array-based linear FIFO implementation utilizing `System.exit(1)` safety routing and synchronous index pointer tracking.
 - [x] **Singly Linked List** — Dynamic node-pointer chain supporting index-based insertion/deletion safety guards and an in-place structural data-swap sorting implementation.
+- [x] Binary Tree Traversal — Node-linked structural model demonstrating depth-first traversal algorithms via recursive Preorder, Inorder, and Postorder variations.
+- [x] Full Binary Tree — Structural validator confirming binary sub-trees meet strict dimensional rules (where every internal parent contains exactly 0 or 2 child branches).
+- [x] Graph (Adjacency Matrix) — Symmetrical boolean grid implementation storing fixed matrix coordinates optimized for rapid tracking of undirected vertex links.
 
 ## 📚 What I'm Learning
 1. **Time & Space Complexity:** Analyzing every data structure using Big O notation.
